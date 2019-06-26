@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.general_info{
+    padding: 0px 40px;
+}
+.g_info {
+    background-color: #00b2f7;
+}
+.g_info p{
+	font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 12px;
+    text-transform: uppercase;
+}
+.btn_custom_pre{
+    padding: 10px 35px;
+    text-transform: uppercase;
+    background: #00B2F7;
+    border: #00B2F7;
+}
+.btn_custom{
+	padding: 10px 53px;
+    text-transform: uppercase;
+    background: #00B2F7;
+    border: #00B2F7;
+    margin-bottom: 40px;
+}
+.socail_pro{
+    border: 1px solid#DDDDDD;
+    padding: 8px 0px;
+    margin: 10px 0px;
+}
+.socail_pro i{
+    padding: 3px 10px;
+}
+.custom_bg{
+  background-color: #E9E9E9;
+}
+.border_buttom{
+  margin-bottom: 40px;
+}
+.padding_top{
+  padding-top: 5px;
+}
+/*on/off plugin*/
+.custom-checkbox {
+  min-height: 1rem;
+  padding-left: 40px;
+  margin-right: 0;
+  cursor: pointer; 
+}
+  .custom-checkbox .custom-control-indicator {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #E8E5E5;
+    border-radius: 3px;
+    margin-right: 10px;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+    box-shadow: none; 
+  }
+    .custom-checkbox .custom-control-indicator:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #F26C4F;
+    border-radius: 3px;
+    /* box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4); */
+    left: 0px;
+    top: 0px;
+    -webkit-transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+    transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+    }
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+    background-color: #E8E5E5;
+    background-image: none;
+    box-shadow: none !important;
+  }
+    .custom-checkbox .custom-control-input:checked ~ .custom-control-indicator:after {
+    background-color: #00A651;
+    left: 20px; 
+    }
+  .custom-checkbox .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none !important; 
+  }
+  .ui-widget-header {
+    background-color: #00B2F7;
+    color: white;
+  }
+  .common_media_field{
+      width: 90%;
+      height: 25px;
+  }
+
+  /*Image Preview plugin css*/
+#image-preview {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    background-size: cover;
+}
+.image_upload_btn input {
+    line-height: 200px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    width: 200px;
+    left: 0;
+    height: 0px;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.image_upload_btn label{
+    background: lightgray;
+
+    padding: 6px 15px;
+
+    position: relative;
+
+    top: -11px;
+
+    left: 15px;
+}
+/*  Mudia Query Start*/
+@media (min-width: 0px) and (max-width: 576px) {
+
+  
+}

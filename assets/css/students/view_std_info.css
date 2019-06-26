@@ -1,0 +1,124 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.full_database{
+	padding: 50px 40px 0px 40px;
+}
+.custom_search{
+	border-radius: 0px!important;
+}
+.dorp{
+
+}
+
+.btn-primary{
+    background-color:#00B2F7;
+    border-color:#00B2F7;
+    transition:.5s;
+}
+.btn-primary:hover {
+    background-color:#fff;
+    border-color:#00B2F7;
+    color:#00B2F7;
+}
+.btn-primart:focus {
+    box-shadow:none !important;
+}
+.btn-primary:active {
+    background-color:#00B2F7;
+    border-color:#00B2F7;
+    box-shadow:none !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+}
+.btn-secondary {
+    color: #fff;
+    /*background-color: #F25C5E;*/
+    /*background-color: #fff;*/
+    /*border-color: #F25C5E;*/
+    padding: 7px 32px;
+    border-radius: 0px;
+    
+}
+.btn-secondary:hover {
+    /*color: #F25C5E;*/
+    /*background-color: #fff;*/
+    /*border-color: #F25C5E;*/
+   
+}
+.btn-secondary .dropdown-toggle{
+	color: #fff;
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #00B2F7;
+    border: none!important;
+}
+.btn-secondary:focus {
+     box-shadow: none !important;
+}
+.show>.btn-secondary.dropdown-toggle:focus {
+     box-shadow: none;
+}
+.dropdown_custom{
+    color: #fff;
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+    padding: 7px 41px;
+    transition:.5s;
+    /*border-radius: 0px;*/
+}
+.dropdown_custom:hover {
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+}
+.dropdown-menu a:hover{
+	background-color: #E8E5E5;
+}
+.database{
+	margin-top: 40px;
+}
+.database p{
+	font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #B8B8B8;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.table thead th {
+    background-color: #00B2F7;
+    color: #fff;
+}
+.custom_icon{
+	padding: 0px 10px;
+	color: #00B2F7;
+}
+.fa-times{
+	color: #FF4848;
+	border: 2px solid #FF4848;
+	padding: 0px 1px;
+}
+.page-link:hover {
+     color: #fff; 
+    background-color: #00B2F7;
+}
+
+.modal-footer button{
+    color: #fff;
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+    padding: 7px 41px;
+    border-radius: 0px;
+    transition:.5s;
+}
+.modal-footer button:hover {
+    color:#fff;
+    background-color: #00B2F7;
+    border-color: #00B2F7;
+}

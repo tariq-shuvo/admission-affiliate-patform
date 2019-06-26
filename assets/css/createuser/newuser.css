@@ -1,0 +1,35 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.general_info{
+	padding: 0px 40px;
+}
+.g_info {
+    background-color: #00b2f7;
+}
+.g_info p{
+	font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 12px;
+    text-transform: uppercase;
+}
+.padding_buttom{
+	padding-bottom: 17px;
+}
+.file_padding_top{
+	padding-top: 80px;
+}
+.gender_padding_top{
+	padding-top: 48px;
+}
+.btn_custom{
+	padding: 7px 31px;
+    text-transform: uppercase;
+    background: #00B2F7;
+    border: #00B2F7;
+    margin-left: 15px;
+}
+.border_left{
+    border-left: 2px solid #E8E8E8;
+}

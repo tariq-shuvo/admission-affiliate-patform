@@ -1,0 +1,201 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #8D8C8C;
+}
+
+/*<!-- view -->*/
+.view{
+font-size: 20px;
+color: #8D8C8C;
+/*font-weight: bold;*/
+}
+/*<!-- breadcum start-->*/
+.breadc{
+    margin-bottom: 30px;
+}
+/*<!-- person start -->*/
+.person_info{}
+
+
+.custom_para{
+    padding: 20px 0;
+    margin:0;
+    text-transform: capitalize;
+/*<!-- course start-->*/    
+}
+.course_info{}
+
+.course_header{
+    background-color: #00B2F7;
+
+}
+.course_header h1{
+    font-size: 16px;
+    padding: 10px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.custom_para2{
+    padding: 20px 5px;
+    margin:0;
+    text-transform: capitalize;
+}
+.market_info{}
+.custom_para3{
+    padding: 20px 20px;
+    margin:0;
+    text-transform: capitalize;
+}
+
+.social_info i{
+    padding: 15px 31px;
+    font-size: 45px;
+    color: #00B2F7;
+}
+.left_0{
+    padding-left: 3px !important;
+}
+.right_0{
+    padding-right: 0 !important;
+}
+.market_content img{
+    height: 95px;
+}
+.market_content .custom_form{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.person_info img{
+    height: 225px;
+    width: 225px;
+}
+
+#ui-id-1{
+    min-height: 20px !important;
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.monthly_earnings{
+    border: 5px solid #00B2F7;
+    min-height: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #252525;
+}
+
+.monthly_earnings .title{
+    text-align: center;
+    color: white;
+}
+.title h1{
+    font-size: 35px;
+}
+.description .title{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 55px;
+    padding-bottom: 15px;
+}
+.description .title h3 {
+    font-size: 25px;
+}
+.monthly_earning_form{
+    margin-top: 50px;
+}
+.monthly_earning_form button{
+    color: #fff;
+    background-color: #F25C5E;
+    border-color: #F25C5E;
+    border-radius: 0px;
+}
+.monthly_earning_form button:hover {
+    background-color: #f43335;
+    border-color: #f43335;
+}
+
+#payment_update_form{
+    padding: 35px 25px;
+}
+#payment_update_form div{
+    padding: 0px 10px;
+}
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .social_info i{
+        padding: 15px 8px;
+        font-size: 25px;
+    }
+    .left_0 {
+    padding-left: 8px !important;
+    }
+
+    .marketplace_image{
+        width: 242px;
+        margin: 0 auto;
+    }
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        .social_info i{
+        padding: 15px 29px;
+        font-size: 25px;
+    }
+    .left_0 {
+    padding-left: 8px !important;
+    }
+
+    .marketplace_image{
+        width: 242px;
+        margin: 0 auto;
+    }
+
+
+}
+  /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .social_info i{
+        padding: 15px 40px;
+        font-size: 25px;
+    }
+    .left_0 {
+    padding-left: 8px !important;
+    }
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+.social_info i{
+        padding: 15px 18px;
+        font-size: 35px;
+    }
+    .left_0 {
+    padding-left: 7px !important;
+    }
+    #gender{
+        margin-top: 175px;
+    }
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.social_info i{
+        padding: 15px 30px;
+        /*font-size: 35px;*/
+    }
+    .left_0 {
+    /*padding-left: 7px !important;*/
+    }
+    #gender{
+        margin-top: 175px;
+    }
+
+ }
